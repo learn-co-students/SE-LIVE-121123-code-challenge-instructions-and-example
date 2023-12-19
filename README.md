@@ -49,6 +49,11 @@ below:
 - Find and open the code challenge assignment in Canvas and download the linked
   ZIP file
 - Unzip the file on your computer
+  - For WSL users only, make sure to move the folder to your Linux file system after unzipping by following these steps:
+  - Open Ubuntu
+  - Type explorer.exe . (type that exactly - including the period after explorer.exe) to open the current WSL directory in the file explorer
+  - Copy the code challenge directory into the WSL directory in the file explorer
+  - If you have trouble with any of these steps, watch the WSL Troubleshooting video below.
 - In your terminal, change directory (`cd`) into the unzipped challenge
   directory
 - Run `ls`; you should see a `bin/` directory and a `code-challenge.bundle`
@@ -76,3 +81,13 @@ To submit the code challenge:
 
 **Reach out to your instructors immediately** if you run into issues
 downloading, working on, or uploading your code challenge.
+
+Here's a video walkthrough of the above steps. Note the beginning will look a little different for you, but the rest of the steps will be the same:
+
+[![Code Challenge Process](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fyoutu.be%2F3AM3qXUtnQY%3Ffeature%3Dshared)](https://youtu.be/3AM3qXUtnQY?feature=shared)
+
+### WSL Troubleshooting
+
+If you are having trouble working on your code challenge in WSL2, make sure to follow the steps in this (slightly old) vidoe to ensure your code is running in the WSL2 file system.
+
+[WSL Troubleshooting](https://www.loom.com/share/eca62789008d4c879c206c57ef999824?sid=5f871710-c08f-4b7e-8b6b-740266465824)
